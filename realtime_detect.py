@@ -9,10 +9,6 @@ load_dotenv()
 # 変数からURLを取得する
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
-# --- ★設定エリア★ ---
-# 取得したDiscord Webhook URLをここに貼る
-WEBHOOK_URL = "https://discord.com/api/webhooks/XXXXXXX"
-
 # 通知を送った後、次に送るまで何秒待つか（例: 180秒 = 3分）
 COOL_DOWN_SECONDS = 900 
 # --------------------
